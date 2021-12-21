@@ -58,7 +58,7 @@ spec:
             shared_store: aws
           aws:
             bucketnames: loki01-mda-dco-k8s-challenge2021
-            endpoint: loki01-mda-dco-k8s-challenge2021.fra1.digitaloceanspaces.com
+            endpoint: fra1.digitaloceanspaces.com
             region: fra1
             s3forcepathstyle: true
   valuesFrom:
