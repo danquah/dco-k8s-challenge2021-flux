@@ -6,9 +6,8 @@ metadata:
   namespace: flux-system
 spec:
   interval: 1m0s
-  path: ./clusters/cluster01/kustomizations-src/crossplane-do-provider
+  path: ./clusters/cluster01-apps/crossplane-do-provider
   prune: true
   sourceRef:
     kind: GitRepository
     name: flux-system
-  targetNamespace: crossplane-system

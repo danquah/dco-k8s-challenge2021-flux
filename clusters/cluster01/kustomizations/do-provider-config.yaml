@@ -8,7 +8,7 @@ spec:
   dependsOn:
     - name: crossplane-do-provider
   interval: 1m0s
-  path: ./clusters/cluster01/kustomizations-src/crossplane-do-provider-config
+  path: ./clusters/cluster01-apps/crossplane-do-provider-config
   prune: true
   sourceRef:
     kind: GitRepository
