@@ -10,7 +10,7 @@ spec:
       chart: crossplane
       sourceRef:
         kind: HelmRepository
-        name: crossplane
+        name: crossplane-stable
       version: 1.5.1
   install:
     createNamespace: true
