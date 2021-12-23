@@ -6,7 +6,7 @@ metadata:
   namespace: flux-system
 spec:
   dependsOn:
-    - name: crossplane-do-provider
+  - name: crossplane-do-provider
   interval: 1m0s
   path: ./clusters/cluster01-apps/crossplane-do-provider-config
   prune: true
@@ -14,3 +14,4 @@ spec:
     kind: GitRepository
     name: flux-system
   targetNamespace: crossplane-system
+
