@@ -22,4 +22,3 @@ spec:
   releaseName: crossplane
   targetNamespace: crossplane-system
   interval: 1m0s
-  values: {}
