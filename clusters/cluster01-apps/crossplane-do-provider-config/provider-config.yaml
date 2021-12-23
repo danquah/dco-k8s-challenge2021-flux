@@ -2,7 +2,7 @@
 apiVersion: do.crossplane.io/v1alpha1
 kind: ProviderConfig
 metadata:
-  name: do-k8s-challenge-2021
+  name: provider-digitalocean-config
 spec:
   credentials:
     source: Secret
